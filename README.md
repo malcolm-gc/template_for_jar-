@@ -55,6 +55,8 @@ Contents
  
 The Processing IDE will throw an error  "No library found for common.Palette"  this library comes about because of the import static statment, by removing the static option in the import statment and prefixing the variable names with Palette  the error can be removed 
  
+     modify PaletteSketch.pde 
+     
      import static common.Palette.*;     change to        import common.Palette.*; 
      background(BLUE);                   change to        background(Palette.BLUE);
                                                           repeat for all of Palette's static values
