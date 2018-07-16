@@ -22,7 +22,7 @@ This was created on Windows10  I can't even pretend to know how to modify it for
 
 Contents 
     
-    common_jar.jpg  a diagramtic representation of how it hangs together 
+    common_jar.jpg                                 a diagramtic representation of how it hangs together 
     
     project\common_jar                             the template directory
     project\common_jar\CreateJarFile.bat           a batch file that will create the .jar file 
